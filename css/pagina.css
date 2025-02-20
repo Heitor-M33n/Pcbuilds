@@ -1,0 +1,50 @@
+.padrao{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+section{
+    display: flex;
+    align-items: center;
+    padding-bottom: 13%;
+    padding-top: 13%;
+    padding-left: none;
+    justify-content: space-around;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+body{
+    margin: 0px;
+}
+.text{
+    font-size: 24px;
+    width: 460px;
+}
+h1{
+    font-size: 64px;
+    padding-bottom: 40px;
+}
+h3{
+    font-size: 48px;
+}
+.red{
+    color: rgba(202, 3, 3, 1);
+}
+.text-gab{
+    font-size: 36px;
+    width: 672px;
+}
+.cooler{
+    padding-left: 70px;
+}
+.blue{
+    color: rgba(5, 12, 182, 1);
+}
+.gabinete{
+    margin-left: 5%;
+}
+.intel{
+    margin-left: 5%;
+}
