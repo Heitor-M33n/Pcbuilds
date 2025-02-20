@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url("Pcbuilds-main/img/aaaa 1.png") no-repeat center center/cover;
+    text-decoration: none;
     font-family: Arial, sans-serif;
 }
 .container {
@@ -28,11 +28,12 @@ body {
 }
 .login-box {
     background: rgba(0, 0, 0, 0.7);
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
     display: inline-block;
     width: 400px;
     justify-content: center;
+    text-align: center;
 }
 .login-box h2 {
     color: white;
@@ -47,15 +48,16 @@ body {
     justify-content: center;
 }
 .login-button {
-    width: 267px;
-    height: 67px;
-    background-color: #2c0ead;
+    width: 400px;
+    height: 40px;
+    background-color: #2363d0;
     font-size: 32px;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
     justify-content: center;
     text-align: center;
+    text-decoration: none;
 }
 footer {
     margin-top: 20px;
@@ -76,4 +78,8 @@ nav {
 }
 #aaa{
     color: #2c0ead;
+}
+main{
+    background-image: url("Pcbuilds-main/img/aaaa 1.png") no-repeat center center/cover;
+    text-decoration: none;
 }
