@@ -1,56 +1,143 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-
 main {
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 footer {
-    background-color: #1e1edb;
-    color: #6E6E73;
-
+    background-color: #dfdfdf;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
+
+section {
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+}
+
 #cinza {
     background-color: #E6E6E6;
+    color: rgb(77, 77, 77);
 }
+
+button {
+    margin-bottom: 5px;
+}
+
 .botao {
     width: 267px;
     height: 67px;
-    background-color: #DCC7FF;
+    background-color: #dfdfdf;
     font-size: 32px;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
 }
-a{
+
+a {
     text-decoration: none;
     display: flex;
     justify-content: center;
 }
-#texto{
+
+#texto {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 45vw;
     align-content: center;
+    justify-content: center;
 }
 
-#img{
-    width: 55%;
-    background-color: #1e1edb;
-}
-
-img{
+img {
     float: right;
+    width: 45vw;
 }
 
-button{
+button {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#p1{
+
+p {
     font-size: 32px;
+    margin-left: 20px;
+}
+
+#slogan {
+    width: 50vw;
+    margin-left: 40px;
+}
+
+h3 {
+    color: #6711F2;
+    font-size: 36px;
+    top: -20px;
+    height: 0px;
+    margin-left: 8px;
+}
+
+#roxo {
+    color: #6711F2;
+}
+
+#azul {
+    color: #3278FB;
+}
+
+#logo {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 96px;
+    text-shadow: 1px 3px 4px #2e2e2e;
+    margin-left: 15px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-left: 3px;
+    text-shadow: 1px 3px 4px #b1b0b0
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+.agdasima-regular {
+    font-family: "Agdasima", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.agdasima-bold {
+    font-family: "Agdasima", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.akshar-basic {
+    font-family: "Akshar", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color: #dfdfdf;
 }
